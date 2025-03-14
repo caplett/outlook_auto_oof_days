@@ -9,7 +9,7 @@ fi
 
 # Build and run the Docker container
 echo "Building and starting the OOF scheduler container..."
-docker-compose up -d --build
+docker compose up -d --build
 
 echo "Container started. You can check logs with:"
 echo "docker-compose logs -f" 
